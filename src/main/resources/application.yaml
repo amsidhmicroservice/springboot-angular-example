@@ -1,0 +1,18 @@
+server:
+  port: 8181
+
+
+spring:
+  datasource:
+    url: jdbc:h2:file:C:/Users/amsid/angular-projects/springboot-angular-backend/database/userdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
