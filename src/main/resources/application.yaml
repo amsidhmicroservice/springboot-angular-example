@@ -16,3 +16,9 @@ spring:
     console:
       enabled: true
 
+
+
+  security:
+    user:
+      name: dummy
+      password: Pass@123
