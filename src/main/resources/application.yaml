@@ -1,10 +1,8 @@
 server:
   port: 8181
-
-
 spring:
   datasource:
-    url: jdbc:h2:file:C:/Users/amsid/angular-projects/springboot-angular-backend/database/userdb
+    url: jdbc:h2:file:C:/Users/amsid/database/temp/userdb
     username: sa
     password:
     driverClassName: org.h2.Driver
